@@ -3,7 +3,6 @@
   "name": "Basics",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
 
-  "workspaceFolder": "/workspaces/astro/examples/basics",
 
   "portsAttributes": {
     "4321": {
@@ -14,13 +13,10 @@
 
   "forwardPorts": [4321],
 
-  "postCreateCommand": "pnpm install && cd /workspaces/astro && pnpm run build",
+"postCreateCommand": "yarn install",
 
   "waitFor": "postCreateCommand",
 
-  "postAttachCommand": {
-    "Server": "pnpm start --host"
-  },
 
   "customizations": {
     "codespaces": {
