@@ -1,9 +1,7 @@
 
 {
   "name": "Basics",
-  "build": {
-    "dockerfile": "../examples.Dockerfile"
-  },
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
 
   "workspaceFolder": "/workspaces/astro/examples/basics",
 
